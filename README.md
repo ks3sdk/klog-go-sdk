@@ -1,11 +1,8 @@
 # 使用方法
 
-## 引用方法(暂行)
-+ 在go.mod中，将ksyun.com/cbd/klog-sdk指向klog-go-sdk的文件所在目录：
+## 引用方法
 ```
-replace (
-	ksyun.com/cbd/klog-sdk => /path/to/klog-go-sdk
-)
+go get github.com/ks3sdk/klog-go-sdk
 ```
 
 ## 使用批量同步客户端
@@ -14,10 +11,10 @@ replace (
     import (
     	"time"
     	
-        sdkCredentials "ksyun.com/cbd/klog-sdk/credentials"
-        sdk "ksyun.com/cbd/klog-sdk/klog"
-        sdkPb "ksyun.com/cbd/klog-sdk/protobuf"
-        sdkService "ksyun.com/cbd/klog-sdk/service"
+        sdkCredentials "github.com/ks3sdk/klog-go-sdk/credentials"
+        sdk "github.com/ks3sdk/klog-go-sdk/klog"
+        sdkPb "github.com/ks3sdk/klog-go-sdk/protobuf"
+        sdkService "github.com/ks3sdk/klog-go-sdk/service"
     )
     
     // 鉴权配置

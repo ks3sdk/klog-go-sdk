@@ -1,6 +1,6 @@
 package klog
 
-import "ksyun.com/cbd/klog-sdk/internal/apierr"
+import "github.com/ks3sdk/klog-go-sdk/internal/apierr"
 
 var (
 	InternalServerError      = "InternalServerError"

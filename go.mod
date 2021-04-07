@@ -1,4 +1,4 @@
-module ksyun.com/cbd/klog-sdk
+module github.com/ks3sdk/klog-go-sdk
 
 go 1.14
 

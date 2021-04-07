@@ -3,10 +3,10 @@ package klog
 import (
 	"context"
 	"fmt"
+	"github.com/ks3sdk/klog-go-sdk/internal/apierr"
+	pb "github.com/ks3sdk/klog-go-sdk/protobuf"
+	"github.com/ks3sdk/klog-go-sdk/service"
 	"google.golang.org/protobuf/proto"
-	"ksyun.com/cbd/klog-sdk/internal/apierr"
-	pb "ksyun.com/cbd/klog-sdk/protobuf"
-	"ksyun.com/cbd/klog-sdk/service"
 	"sync"
 	"time"
 	"unicode/utf8"

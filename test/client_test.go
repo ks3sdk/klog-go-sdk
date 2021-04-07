@@ -2,19 +2,19 @@ package test
 
 import (
 	"flag"
+	"github.com/ks3sdk/klog-go-sdk/credentials"
+	"github.com/ks3sdk/klog-go-sdk/klog"
+	pb "github.com/ks3sdk/klog-go-sdk/protobuf"
+	"github.com/ks3sdk/klog-go-sdk/service"
 	"github.com/stretchr/testify/assert"
-	"ksyun.com/cbd/klog-sdk/credentials"
-	"ksyun.com/cbd/klog-sdk/klog"
-	pb "ksyun.com/cbd/klog-sdk/protobuf"
-	"ksyun.com/cbd/klog-sdk/service"
 	"testing"
 	"time"
 )
 
 //测试环境
 const (
-	AK = "AKAKAKAKAKAKAKAKAKAKAKAKAKAKAKKA"
-	SK = "SKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSSKSKSKSKSKSKSKSKSKS"
+	AK = "AKLTd6mJ5q6ETWKJCtrKvA6XoA"
+	SK = "OM29D2LynDwoEnsYdfJNFoC7MBgdVqH830joLn7t5OnJnkIDeeYzKjCuHlcN7Bzy7g=="
 	//Endpoint = "klog-cn-beijing-internal.ksyun.com"
 	Endpoint = "127.0.0.1:8010"
 )

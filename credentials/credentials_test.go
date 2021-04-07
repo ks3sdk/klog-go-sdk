@@ -1,7 +1,7 @@
 package credentials
 
 import (
-	"ksyun.com/cbd/klog-sdk/internal/apierr"
+	"github.com/ks3sdk/klog-go-sdk/internal/apierr"
 	"testing"
 
 	"github.com/ks3sdklib/aws-sdk-go/aws/awserr"

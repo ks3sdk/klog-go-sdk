@@ -2,8 +2,8 @@ package klog
 
 import (
 	"fmt"
-	pb "ksyun.com/cbd/klog-sdk/protobuf"
-	"ksyun.com/cbd/klog-sdk/service"
+	pb "github.com/ks3sdk/klog-go-sdk/protobuf"
+	"github.com/ks3sdk/klog-go-sdk/service"
 	"sync"
 )
 

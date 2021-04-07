@@ -2,9 +2,9 @@ package klog
 
 import (
 	"github.com/golang/protobuf/proto"
-	v2 "ksyun.com/cbd/klog-sdk/internal/signer"
-	pb "ksyun.com/cbd/klog-sdk/protobuf"
-	"ksyun.com/cbd/klog-sdk/service"
+	v2 "github.com/ks3sdk/klog-go-sdk/internal/signer"
+	pb "github.com/ks3sdk/klog-go-sdk/protobuf"
+	"github.com/ks3sdk/klog-go-sdk/service"
 	"net/url"
 	"sync"
 )

@@ -1,7 +1,7 @@
 package service
 
 import (
-	"ksyun.com/cbd/klog-sdk/credentials"
+	"github.com/ks3sdk/klog-go-sdk/credentials"
 	"net/http"
 )
 

@@ -2,7 +2,7 @@ package credentials
 
 import (
 	"fmt"
-	"ksyun.com/cbd/klog-sdk/internal/apierr"
+	"github.com/ks3sdk/klog-go-sdk/internal/apierr"
 	"os"
 	"path/filepath"
 )
