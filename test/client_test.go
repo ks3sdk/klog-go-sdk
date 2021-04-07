@@ -13,8 +13,8 @@ import (
 
 //测试环境
 const (
-	AK = "AKLTd6mJ5q6ETWKJCtrKvA6XoA"
-	SK = "OM29D2LynDwoEnsYdfJNFoC7MBgdVqH830joLn7t5OnJnkIDeeYzKjCuHlcN7Bzy7g=="
+	AK = "AKAKAKAKAKAKAKAKAKAKAKAKAK"
+	SK = "SKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSK=="
 	//Endpoint = "klog-cn-beijing-internal.ksyun.com"
 	Endpoint = "127.0.0.1:8010"
 )
