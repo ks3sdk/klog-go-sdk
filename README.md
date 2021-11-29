@@ -1,4 +1,8 @@
-# 使用方法
+# !!!本项目已经迁移至 https://gitee.com/klogsdk/klog-go-sdk，并且已经重构。Github中的代码将不再更新。
+
+# 金山云日志服务(KLog) SDK for golang
++ [金山云日志服务产品简介](https://www.ksyun.com/nv/product/KLog.html)
++ [金山云日志服务产品文档](https://docs.ksyun.com/products/123)
 
 ## 引用方法
 ```
